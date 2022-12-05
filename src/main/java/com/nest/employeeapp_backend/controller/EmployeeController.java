@@ -30,4 +30,10 @@ public class EmployeeController {
     {
         return "Search Employee page";
     }
+
+    @GetMapping("/view")
+    public String ViewEmployees()
+    {
+        return "View Employees page";
+    }
 }
